@@ -116,3 +116,4 @@ C:\Users\GOI4JVL\OneDrive - Bosch Group\repositório\C#\Pizzaria\backend\bin\Deb
 C:\Users\GOI4JVL\OneDrive - Bosch Group\repositório\C#\Pizzaria\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\GOI4JVL\OneDrive - Bosch Group\repositório\C#\Pizzaria\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\GOI4JVL\OneDrive - Bosch Group\repositório\C#\Pizzaria\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\GOI4JVL\OneDrive - Bosch Group\repositório\C#\Pizzaria\backend\obj\Debug\net8.0\backend.sourcelink.json
