@@ -85,16 +85,17 @@ public class PizzaController : ControllerBase
  
     //Mapeia requisicoes HTTP Delete para /pizza/{id}
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         //Buscar a pizza antes de excluir
-        var pizza = PizzaService.Get(id);
+        var pizza = await _context.Pizzas.FindAsync(id);
  
         //Se não existir, retorna 404 Not Found
         if (pizza is null) return NotFound();
  
         //Remove a pizza
-        PizzaService.Delete(id);
+        _context.Pizzas.Remove(pizza);
+        await _context.SaveChangesAsync();
  
         //retorna 204 No Content
         return NoContent();
